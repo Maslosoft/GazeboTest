@@ -1,0 +1,23 @@
+{
+	"name": "maslosoft/gazebotest",
+	"description": "Gazebo plugin container test suite",
+	"license": [
+		"AGPL",
+		"Commercial"
+	],
+	"authors": [
+		{
+			"name": "Peter Maselkowski",
+			"email": "pmaselkowski@gmail.com"
+		}
+	],
+	"require": {
+		"codeception/codeception": "*",
+		"codeception/specify": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Maslosoft\\GazeboTest\\Model\\": "model"
+		}
+	}
+}
